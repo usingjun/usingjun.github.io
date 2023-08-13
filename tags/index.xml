@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on min1321&#39;s blog</title>
-    <link>https://min1321.github.io/tags/</link>
-    <description>Recent content in Tags on min1321&#39;s blog</description>
+    <title>Tags on usingjun&#39;s blog</title>
+    <link>https://usingjun.github.io/tags/</link>
+    <description>Recent content in Tags on usingjun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Aug 2023 22:42:52 +0900</lastBuildDate><atom:link href="https://min1321.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 22:42:52 +0900</lastBuildDate><atom:link href="https://usingjun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tag1</title>
-      <link>https://min1321.github.io/tags/tag1/</link>
+      <link>https://usingjun.github.io/tags/tag1/</link>
       <pubDate>Thu, 10 Aug 2023 22:42:52 +0900</pubDate>
       
-      <guid>https://min1321.github.io/tags/tag1/</guid>
+      <guid>https://usingjun.github.io/tags/tag1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag2</title>
-      <link>https://min1321.github.io/tags/tag2/</link>
+      <link>https://usingjun.github.io/tags/tag2/</link>
       <pubDate>Thu, 10 Aug 2023 22:42:52 +0900</pubDate>
       
-      <guid>https://min1321.github.io/tags/tag2/</guid>
+      <guid>https://usingjun.github.io/tags/tag2/</guid>
       <description></description>
     </item>
     
