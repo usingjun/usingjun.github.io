@@ -7,15 +7,17 @@
 {  
   "@context":"http://schema.org",
   "@type":"Website",
-  "@id":"http:\/\/example.org\/",
+  "@id":"http:\/\/usingjun.github.io\/",
   "author": {
     "@type": "Person",
-    "name":  null ,
+    "name": "Thibaud Leprêtre",
+    
+    "image": "https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c"
     
   },
   "name":"My New Hugo Site",
   "description":"",
-  "url":"http:\/\/example.org\/categories\/category\/",
+  "url":"http:\/\/usingjun.github.io\/categories\/category\/",
   "keywords":"[]"
 }
 
@@ -24,7 +26,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.117.0 with theme Tranquilpeak 0.5.3-BETA">
-<meta name="author" content="">
+<meta name="author" content="Thibaud Leprêtre">
 <meta name="keywords" content="">
 <meta name="description" content="">
 
@@ -33,8 +35,8 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="category">
 <meta name="twitter:title" content="category">
-<meta property="og:url" content="http://example.org/categories/category/">
-<meta property="twitter:url" content="http://example.org/categories/category/">
+<meta property="og:url" content="http://usingjun.github.io/categories/category/">
+<meta property="twitter:url" content="http://usingjun.github.io/categories/category/">
 <meta property="og:site_name" content="My New Hugo Site">
 <meta property="og:description" content="">
 <meta name="twitter:description" content="">
@@ -43,11 +45,18 @@
 
 <meta name="twitter:card" content="summary">
 
+  <meta name="twitter:site" content="@thibaudlepretre">
+
+
+  <meta name="twitter:creator" content="@thibaudlepretre">
 
 
 
 
 
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=640">
 
 
 
@@ -62,8 +71,10 @@
     
 
     
+      <link rel="publisher" href="https://plus.google.com/&#43;thibaudlepretre">
+    
 
-    <link rel="canonical" href="http://example.org/categories/category/">
+    <link rel="canonical" href="http://usingjun.github.io/categories/category/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -71,7 +82,7 @@
     
     
     
-    <link rel="stylesheet" href="http://example.org/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    <link rel="stylesheet" href="http://usingjun.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
     
     
 
@@ -89,21 +100,121 @@
     <a class="header-title-link" href="/" aria-label="">My New Hugo Site</a>
   </div>
   
+    
+      <a class="header-right-icon open-algolia-search"
+         href="/#search" aria-label="">
+    
+    
+      <i class="fa fa-lg fa-search"></i>
+    
+    
+    </a>
+  
 </header>
 
       <nav id="sidebar" data-behavior="">
   <div class="sidebar-container">
     
+      <div class="sidebar-profile">
+        <a href="/#about" aria-label="">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=110" alt="" />
+        </a>
+        <h4 class="sidebar-profile-name">Thibaud Leprêtre</h4>
+        
+          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
+        
+      </div>
+    
     <ul class="sidebar-buttons">
       
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about" title="About">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
 
     </ul>
     <ul class="sidebar-buttons">
       
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait" target="_blank" rel="noopener" title="Stack Overflow">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/kakawait" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
 
     </ul>
     <ul class="sidebar-buttons">
       
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
 
     </ul>
   </div>
@@ -131,7 +242,7 @@
     <div class="postShorten-header">
       <h1 class="postShorten-title">
       
-        <a class="link-unstyled" href="http://example.org/post/hello/" aria-label="">
+        <a class="link-unstyled" href="http://usingjun.github.io/post/hello/" aria-label="">
       
           Hello It&#39;s Yongjun&#39;s Blog
         </a>
@@ -165,7 +276,7 @@
       
       <p>
         
-          <a href="http://example.org/post/hello/" class="postShorten-excerpt_link link" aria-label=""></a>
+          <a href="http://usingjun.github.io/post/hello/" class="postShorten-excerpt_link link" aria-label=""></a>
         
         
       </p>
@@ -181,7 +292,7 @@
         
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2023 My New Hugo Site. 
+    &copy; 2023 Thibaud Leprêtre. 
   </span>
 </footer>
 
@@ -194,9 +305,25 @@
       <i class="fa fa-times"></i>
     </div>
     
-    <h4 id="about-card-name"></h4>
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=110" alt="" />
+    
+    <h4 id="about-card-name">Thibaud Leprêtre</h4>
+    
+      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
     
     
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Java backend developer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker-alt"></i>
+        <br/>
+        France
+      </div>
     
   </div>
 </div>
@@ -211,7 +338,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<script src="http://example.org/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+<script src="http://usingjun.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
 
 
 
